@@ -1,4 +1,4 @@
-# Trigram
+# Trigram [![Build Status](https://travis-ci.org/milk1000cc/trigram.svg)](https://travis-ci.org/milk1000cc/trigram)
 
 Compute the similarity of two strings based on the trigram (n-gram) method
 
