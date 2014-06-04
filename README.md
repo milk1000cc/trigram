@@ -19,7 +19,13 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+Trigram.compare 'he is genius', 'he is genius'  # => 1
+
 Trigram.compare 'he is genius', 'he is very genius'  # => 0.5625
+
+Trigram.compare 'he is genius', 'she is cute'  # => 0.26666666666666666
+
+Trigram.compare 'he is genius', 'I can fly'  # => 0
 ```
 
 ## Credits
